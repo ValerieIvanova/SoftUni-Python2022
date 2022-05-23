@@ -1,2 +1,2 @@
 # SoftUni-Python2022
-Homework and exercises 
+Homework, exercises and exams
