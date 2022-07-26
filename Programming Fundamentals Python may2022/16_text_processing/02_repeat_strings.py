@@ -1,0 +1,1 @@
+[print(char * len(char), end='') for char in input().split()]
