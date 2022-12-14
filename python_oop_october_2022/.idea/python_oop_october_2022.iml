@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/03_inheritance/exercise/01_food" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_encapsulation/exercise/04_restaurant/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Unit_testing/exercise/hero/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Unit_testing/exercise/mammal/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Unit_testing/exercise/student/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Unit_testing/exercise/vehicle/project" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
