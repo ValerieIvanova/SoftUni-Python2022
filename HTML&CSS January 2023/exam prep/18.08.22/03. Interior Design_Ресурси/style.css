@@ -1,0 +1,151 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: fatface;
+}
+
+.main-container {
+  width: 85%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.heading {
+  width: 100%;
+  height: 600px;
+  background-image: url(image/image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  width: 130px;
+  margin: 20px 30px;
+  display: inline-block;
+  border: 1px solid rgb(187, 186, 186);
+  box-shadow: 2px 2px 4px 2px rgb(107, 102, 102);
+  padding: 10px 20px;
+
+}
+
+.header h1 {
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.aditional-header {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.intro {
+  float: right;
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  text-align: right;
+  background: linear-gradient(
+    90deg,
+    rgba(160, 150, 142, 1) 0%,
+    rgb(206, 200, 198) 39%
+  );
+  position: relative;
+  top: 200px;
+  box-shadow: 2px 2px 4px 2px rgb(107, 102, 102);
+}
+
+.intro i {
+  padding: 10px 30px;
+  color: #8e8582;
+}
+
+.intro p {
+  margin: 0;
+  padding: 0 20px;
+  color: #fffef4;
+}
+
+.content{
+    background-color: #f2f0f3;
+    padding: 0 40px;
+    padding-right: 0;
+    padding-bottom: 0;
+    font-weight: lighter;
+}
+
+.content i{
+    padding-right: 10px;
+}
+
+.content hr{
+    border: 1px solid black;
+}
+
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    font-style: italic;
+}
+
+.content ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.content input{
+    background-color: #bab1ad;
+    width: 300px;
+    padding: 10px 10px;
+    border-style: none;
+    border-radius: 6px;
+}
+.content input::placeholder{
+    color: white;
+}
+
+button{
+    padding: 10px 10px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: #67784d;
+    color: white;
+}
+
+aside{
+    position: relative;
+    float: right;
+    background-color: #bab1ad;
+    color: white;
+    padding: 20px 30px;
+    height: 440px;
+}
+
+aside span{
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+}
+
+aside p {
+    color: black;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+aside p:nth-child(:last-child){
+    padding-bottom: 0;
+}
+
+.contact{
+    padding-top: 40px;
+}

@@ -1,0 +1,38 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+header * {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+body{
+    padding: 60px;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    margin: 5px 10px;
+}
+
+main{
+    font-weight: 100;
+    line-height: 24px;
+}
+
+main h2{
+    font-family: serif;
+    font-weight: 50;
+    font-size: 33px;
+}

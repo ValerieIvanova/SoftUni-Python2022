@@ -1,0 +1,162 @@
+body{
+    font-family: Poppins;
+    width: 100%;
+}
+
+.heading{
+    background-image: url(images/landing-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 200px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(90, 81, 81);
+    cursor: pointer;
+}
+
+.navigation .logo{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.navigation button{
+    border-style: none;
+    background-color: #370711;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 20px;
+    cursor: pointer;
+}
+
+.headers{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    display: inline-block;
+}
+
+.headers h1{
+    font-size: 48px;
+}
+
+.headers h2{
+    font-weight: 400;
+}
+
+.headers p{
+    padding-top: 20px;
+}
+
+.explore-btn{
+    border-style: none;
+    border-radius: 20px;
+    background-color: #370711;
+    color: white;
+    padding: 2px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2, .content>p{
+    text-align: center;
+    position: relative;
+}
+
+.content>p{
+    padding-bottom: 40px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.card{
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3{
+    padding: 12px;
+    font-size: 20px;
+}
+
+.card p{
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.discover-btn{
+    padding: 8px 20px ;
+    border-radius: 28px;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+    padding: 10px 150px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+footer .logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer i{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 8px;
+}

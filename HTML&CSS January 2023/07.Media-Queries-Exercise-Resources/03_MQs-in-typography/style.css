@@ -1,0 +1,107 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 50px;
+}
+
+.header {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 4px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    float: right;
+    width: 40%;
+    font-style: italic;
+    position: relative;
+    top: -10px;
+}
+
+.quote {
+    border-right: 2px solid darkgray;
+    width: 50%;
+}
+
+span{
+    float: right;
+    position: relative;
+    bottom: -20px;
+}
+
+aside {
+    margin-left: 30px;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+h1 ,h2, h3{
+    font-family: Georgia, serif;
+}
+
+.first-img {
+    float: right;
+    margin-left: 10px;
+}
+
+.second-img {
+    float: left;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        font-size: 12px;
+    }
+}

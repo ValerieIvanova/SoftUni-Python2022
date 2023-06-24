@@ -1,0 +1,76 @@
+@media (max-width: 800px){
+    body > header > nav{
+        flex-direction: column;
+    }
+
+    body > header > nav > ul{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    body > main > section.trainings{
+        flex-direction: column;
+    }
+
+    body > main > section.trainings > div{
+        margin: auto;
+        width: 500px;
+    }
+
+    body > main > section.instructors > ul{
+        justify-content: center;
+    }
+
+    body > main > section.classes > ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+    }
+
+    body > main > section.classes > ul > li{
+        width: 100%;
+    }
+
+    body > main > section.getInTouch{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body > main > section.getInTouch > div.form > form{
+        width: 700px;
+    }
+
+    body > main > section.getInTouch{
+        height: 1000px;
+    }
+
+    .map img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        object-fit: contain;
+        padding: 1rem;
+    }
+
+    .site-footer .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        'info info'
+        'sitemap contacts';
+    }
+
+    body > footer > div > section.about{
+        grid-area: info;
+    }
+
+    body > footer > div > section.sitemap{
+        grid-area: sitemap;
+    }
+
+    body > footer > div > section.contacts{
+        grid-area: contacts;
+    }
+}

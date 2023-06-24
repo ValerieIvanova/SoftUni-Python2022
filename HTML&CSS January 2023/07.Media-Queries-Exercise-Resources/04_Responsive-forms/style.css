@@ -1,0 +1,41 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+fieldset{
+    background-color: rgb(246, 246, 246);
+}
+
+
+legend{
+    background-color: rgb(246, 246, 246);
+    margin-left: -14px;
+    padding: 4px 10px;
+    padding-right: 88px;
+    border: 1px solid black;
+}
+
+p{
+    display: inline-block;
+}
+
+input {
+    width: 260px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+i{
+    position: relative;
+    left: 24px;
+}

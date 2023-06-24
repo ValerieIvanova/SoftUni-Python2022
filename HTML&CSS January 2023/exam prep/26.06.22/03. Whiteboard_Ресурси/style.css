@@ -1,0 +1,159 @@
+body{
+    font-family: PT Sans;
+}
+
+.main{
+    background-image: url(image/computer-main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+
+    background-color: gray;
+    background-blend-mode: multiply;
+
+}
+
+nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+    color: white;
+}
+
+.cart-btn{
+    border-style: none;
+    color: white;
+    background-color: transparent;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    color: white;
+}
+
+.header h1{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.header p{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.buy-now-btn{
+    margin: 30px;
+    background-color: #5fd18f;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 12px;
+}
+
+.see-it-btn{
+    border-style: none;
+    background-color: transparent;
+    color: white;
+}
+
+.hustle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hustle img{
+    width: 52%;
+    object-fit: cover;
+}
+
+.hustle .info{
+    width: 100%;
+    margin-left: 50px;
+}
+.hustle h2, p{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+
+.hustle ul{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.hustle i{
+    color: #5fd18f;
+}
+
+.hustlecase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hustlecase img{
+    width: 100%;
+}
+
+.hustlecase .info{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.hustlecase ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.hustlecase ul img{
+    width: 50%;
+}
+
+.hustlecase ul span{
+    color: #5fd18f;
+    font-size: 20px;
+}
+
+
+.questions{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #b2f1de;
+}
+
+.questions h2{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.questions p{
+    margin-left: 0;
+    padding: 30px;
+}
+
+.wrapper{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.buy-now-btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.email-us{
+    all: unset;
+    cursor: pointer;
+}

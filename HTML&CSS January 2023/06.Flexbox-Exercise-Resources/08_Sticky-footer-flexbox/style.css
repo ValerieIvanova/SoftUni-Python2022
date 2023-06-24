@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100px;
+    font-family: Helvetica, sans-serif;
+}
+
+main{
+    margin: 20px 40px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+span{
+    margin: 20px 40px;
+}
+
+header{
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 20px 40px;
+}

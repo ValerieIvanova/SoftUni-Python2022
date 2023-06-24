@@ -1,0 +1,39 @@
+body{
+    font-family: serif;
+    margin: 40px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+}
+
+img{
+    width: 500px;
+}
+
+span {
+    display: inline-block;
+    width: 700px;
+}
+
+p{
+    width: 700px;
+}
+
+li{
+    list-style-type: square;
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
+    line-height: 23px;
+}
+
+header {
+    display: inline-block;
+}
+
+section aside{
+    display: inline-block;
+    position: relative;
+    top: -70px;
+}

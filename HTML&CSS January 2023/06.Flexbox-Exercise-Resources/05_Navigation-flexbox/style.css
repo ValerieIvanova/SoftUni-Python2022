@@ -1,0 +1,27 @@
+body{
+    margin: 30px 50px;
+}
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 12px;
+}
+
+header nav ul li a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

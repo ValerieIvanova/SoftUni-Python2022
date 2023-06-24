@@ -1,0 +1,97 @@
+html{
+    font-family: "Open sans";
+}
+body{
+    margin: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 8px 2px #888888;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3{
+    align-self: flex-start;
+    position: relative;
+    bottom: 220px;
+    padding-left: 30px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.container h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.head-btns {
+    position: relative;
+    top: 220px;
+}
+
+.head-btns i{
+    padding-right: 10px;
+    font-size: 26px;
+}
+
+.content{
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.content input{
+    border-style: none;
+    border-bottom: 1px solid gray;
+    margin: 30px 8px;
+    padding: 10px;
+}
+
+.content label{
+    color: gray;
+
+}
+
+.form *{
+    width: 80%;
+}
+
+.register-btn{
+    border-radius: 40px;
+    padding: 4px 30px;
+    background-color: black;
+    color: white;
+}
+
+.alr-reg-btn{
+    border-style: none;
+    background-color: transparent;
+    color: gray;
+    text-decoration: underline;
+}
+
+.content button{
+    margin-top: 30px;
+}

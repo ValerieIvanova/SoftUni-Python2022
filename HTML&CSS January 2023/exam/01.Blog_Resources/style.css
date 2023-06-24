@@ -1,0 +1,62 @@
+body {
+  font-family: Montserrat;
+  background: rgb(236, 215, 173);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 215, 173, 1) 0%,
+    rgba(246, 224, 181, 1) 51%
+  );
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 65%;
+    gap: 30px;
+}
+
+.card{
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 2px 2px 70px 2px black;
+}
+
+.card img{
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+}
+
+.card p{
+    background-color: #67545e;
+    padding: 6px 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.other{
+    color: #67545e;
+    line-height: 36px;
+    font-size: 20px;
+    position: relative;
+    top: -155px;
+}
+
+.other ul{
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.other h2{
+    font-size: 26px;
+    margin-left: 40px;
+    font-weight: 400;
+}

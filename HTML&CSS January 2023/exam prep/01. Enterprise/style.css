@@ -1,0 +1,58 @@
+html{
+    font-family: Helvetica;
+}
+
+.enterprise {
+    background-color: #f5f8fa;
+    padding: 48px 24px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.enterprise .container{
+    width: 40%;
+    padding: 48px 0;
+}
+
+.container img{
+    width: 30%;
+}
+
+.container>p{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #7f8891;
+}
+
+button {
+    all: unset;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border-style: none;
+    
+}
+
+.contact-sales{
+    background-color: #796df7;
+    color: white;
+    margin-right: 10px;
+}
+
+.learn-more {
+    background-color: transparent;
+    border: 1px solid gray;
+}

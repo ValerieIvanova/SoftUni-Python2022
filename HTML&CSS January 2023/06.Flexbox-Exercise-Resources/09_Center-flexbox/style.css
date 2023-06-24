@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 360px;
+  height: 150px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+p {
+  padding-left: 10px;
+}
+
+h1,
+p {
+  padding-left: 10px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
